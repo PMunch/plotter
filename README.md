@@ -9,3 +9,9 @@ a colour chosen from your X resources (your terminal colours). Values in the
 input can be separated by either whitespace, a comma, or both. The plot also
 scales to fill your entire terminal, and shows you the lowest and highest value
 of your data.
+
+![Example of plot](example.png)
+
+The above image was gotten from running a program which received data from an
+Arduino reading some analog data. The program running on the Arduino writes out
+four values along with the numbers `100,-100` to clamp the graph.
